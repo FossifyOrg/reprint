@@ -275,7 +275,7 @@ public class MarshmallowReprintModule implements ReprintModule {
         public void onAuthenticationFailed() {
             if (listener == null) return;
             listener.onFailure(AuthenticationFailureReason.AUTHENTICATION_FAILED, false,
-                    context.getString(R.string.fingerprint_not_recognized), TAG, FINGERPRINT_AUTHENTICATION_FAILED);
+                    "Not recognized", TAG, FINGERPRINT_AUTHENTICATION_FAILED);
         }
     }
 }
