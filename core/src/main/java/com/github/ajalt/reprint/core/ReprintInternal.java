@@ -99,7 +99,7 @@ enum ReprintInternal {
 
         if (!module.hasFingerprintRegistered()) {
             listener.onFailure(AuthenticationFailureReason.NO_FINGERPRINTS_REGISTERED, true,
-                    getString(R.string.fingerprint_not_recognized), 0, 0);
+                    "Not recognized", 0, 0);
             return;
         }
 
