@@ -29,7 +29,6 @@ android {
 
 dependencies {
     implementation project(':core')
-    implementation project(':reprint_spass')
     implementation project(':rxjava')
     implementation project(':rxjava2')
 
